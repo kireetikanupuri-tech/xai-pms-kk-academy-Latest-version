@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets: never commit real API keys or passwords
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.env
+.env.*
+!.env.example
+
+# Tenant runtime files
+tenant_data/
+data/*
+!data/.gitkeep
+reviews/*
+!reviews/.gitkeep
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
